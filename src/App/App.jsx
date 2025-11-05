@@ -8,19 +8,13 @@
 */
 import { Suspense, lazy } from "react";
 import NavBar from "../Components/nav/NavBar";
-import { TailSpin } from "react-loader-spinner";
+import Loader from "../Components/Loader";
 
 const Hero = lazy(() => import("../Pages/Hero"));
 const About = lazy(() => import("../Pages/About"));
 const Projects = lazy(() => import("../Pages/Projects"));
 const Skills = lazy(() => import("../Pages/Skills"));
 const Contact = lazy(() => import("../Pages/Contact"));
-
-const Loader = () => (
-  <div className="loader">
-    <TailSpin height="80" width="80" color="#4fa94d" />
-  </div>
-);
 
 function AppContent() {
   return (

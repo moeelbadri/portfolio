@@ -8,17 +8,25 @@
 */
 
 import React from "react";
+import { TailSpin } from "react-loader-spinner";
 
 const Loader = () => {
   return (
-    <div className="w-screen h-screen overflow-hidden bg-grayscale-950 flex items-center justify-center relative">
-      <span
-        style={{ fontFamily: "SuperMario" }}
-        className="absolute text-primary-400 text-xl"
-      >
-        b
-      </span>
-      <div className="loader-spinner"></div>
+    <div className="loader">
+      <div className="relative flex items-center justify-center">
+        <TailSpin
+          height="120"
+          width="120"
+          color="#cbbde5"
+          ariaLabel="loading"
+        />
+        <span
+          style={{ fontFamily: "SuperMario" }}
+          className="absolute text-primary-400 text-3xl left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+        >
+          b
+        </span>
+      </div>
     </div>
   );
 };
