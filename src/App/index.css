@@ -55,7 +55,7 @@ body {
   border-right-color: rgba(203, 189, 229, 0.4);
   display: inline-block;
   box-sizing: border-box;
-  animation: loader-rotation 0.9s linear infinite;
+  animation: loader-rotation 1.25s linear infinite;
   position: relative;
 }
 
