@@ -33,6 +33,19 @@ body {
   -webkit-overflow-x: hidden;
 }
 
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #0e0e0e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
 .overflow-hidden-web {
   overflow: hidden;
   -webkit-overflow: hidden;
