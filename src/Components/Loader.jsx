@@ -11,14 +11,16 @@ import React from "react";
 
 const Loader = () => {
   return (
-    <div className="w-screen h-screen overflow-hidden bg-grayscale-950 flex items-center justify-center relative">
-      <span
-        style={{ fontFamily: "SuperMario" }}
-        className="absolute text-primary-400 text-xl"
-      >
-        b
-      </span>
-      <div className="loader"></div>
+    <div className="loader">
+      <div className="relative flex items-center justify-center">
+        <span className="loader-spinner" aria-label="loading indicator" />
+        <span
+          style={{ fontFamily: "SuperMario" }}
+          className="absolute text-primary-400 text-3xl left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+        >
+          b
+        </span>
+      </div>
     </div>
   );
 };
