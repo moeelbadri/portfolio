@@ -18,7 +18,7 @@ const Loader = () => {
       >
         b
       </span>
-      <div className="loader"></div>
+      <div className="loader-spinner"></div>
     </div>
   );
 };
