@@ -1,5 +1,6 @@
-name = "vs-portfolio"
+name = "hani"
 compatibility_date = "2025-11-05"
+workers_dev = true
 
 [assets]
 directory = "./dist"
