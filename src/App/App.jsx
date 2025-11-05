@@ -7,7 +7,6 @@
    Last modification: 02/06/2023
 */
 import { Suspense, lazy } from "react";
-import NavBar from "../Components/nav/NavBar";
 
 const Hero = lazy(() => import("../Pages/Hero"));
 const About = lazy(() => import("../Pages/About"));
